@@ -56,7 +56,8 @@
                     <th><input type="text" name="alamat" placeholder="Input alamat" maxleng="50">
                         <?= form_error('alamat','<small style="color:red">', '</samll>'); ?></th>
                 </tr>
-                <tr><td>Jenis Kelamin</td><td>:</td><td><input type="radio" name="jk" id="jk" value="Laki-Laki">Laki-Laki <input type="radio" name="jk" id="jk" value="Perempuan">Perempuan</td>
+                <tr><td>Jenis Kelamin</td><td>:</td><td><input type="radio" name="jk" id="jk" value="Laki-Laki">Laki-Laki 
+                <input type="radio" name="jk" id="jk" value="Perempuan">Perempuan</td></tr>
                 <tr>
                     <th>Agama</th>
                     <th>:</th>
